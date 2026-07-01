@@ -46,7 +46,7 @@ CANDLE_LIMIT = 100 # Historial de velas descargado para la precisión matemátic
 CAPITAL_MAXIMO_DIARIO = 100.0     # Techo máximo de dinero permitido para operar al iniciar un ciclo
 capital_control_actual = 100.0    # Capital operativo del ciclo actual (se ajusta dinámicamente cada 24h)
 MAX_PERDIDA_PCT = 5.0             # Drawdown Máximo (5%). Si el capital baja de $95 USDT, el bot se apaga.
-ASSET_ALLOCATION_PCT = 0.15       # Asignamos el 15% por cada trade (~$15 USDT)
+ASSET_ALLOCATION_PCT = 0.05       # Asignamos el 5% por cada trade (~$5 USDT)
 
 historial_operaciones = []  # Caché temporal para registrar las ejecuciones
 bot_activo = True           # Mantiene el bucle infinito en ejecución permanente
