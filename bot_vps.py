@@ -23,7 +23,7 @@ if not API_KEY or not API_SECRET or not TELEGRAM_TOKEN or not TELEGRAM_CHAT_ID:
     sys.exit(1)
 
 bot_trading_encendido = False  
-par_actual = "BTC/USDT"        
+par_actual = "SOL/USDT"        
 CANDLE_LIMIT = 100
 TF_COMPRA = "1h"
 TF_VENTA = "15m"
